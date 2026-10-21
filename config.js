@@ -1,11 +1,11 @@
 // Personalise these words before sharing. Keep each paragraph inside quotes.
 window.BIRTHDAY = {
-  name: "Birthday Girl",
-  from: "Your friend",
+  name: "Anbe Anabella",
+  from: "PC",
   letter: [
-    "Some people make the world feel a little warmer just by being in it. Today is a little celebration of you.",
-    "I hope this next chapter brings you the kind of happiness that shows up in ordinary moments, the courage to follow the things you love, and so many reasons to smile.",
-    "May you feel celebrated, appreciated, and surrounded by good things — today and in all the days ahead.",
-    "Here’s to new adventures, beautiful surprises, and wishes that find their way to you. Happy birthday!"
+    "Anabella unaku porantha nal anabella unaku porantha nal aiyo anabela nee azaghana mooku oda poranthutiye , azaghe poramai padum peru azaghu mooku konda aanabella ku happy porantha nal",
+    "Jokes apart , All the cell and atom in the entire universe will come together to make all your wish come true , you will be loved loved loved loved , you become the most happiest hottest version of yourself , those days are near and i could see that",
+    "Happy Birthday to Anabella who gave me azaghan neram in 2026",
+    "Universe Will bless youu Anabell Bommai"
   ]
 };
