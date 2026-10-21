@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101524"><meta name="description" content="A little birthday magic, made just for you.">
+<title>A little birthday magic</title>
+<link rel="stylesheet" href="style.css">
+<script src="config.js" defer></script><script src="script.js" defer></script>
+</head>
+<body>
+<div id="stars" aria-hidden="true"></div><div class="halo" aria-hidden="true"></div>
+<header><a class="wordmark" href="./" aria-label="Start again">a little <i>birthday</i> magic <span>✧</span></a><span class="edition">MADE JUST FOR YOU</span></header>
+<main>
+<nav class="journey" aria-label="Birthday journey"><span class="active" aria-current="step">01 <b>THE SPARK</b></span><i></i><span>02 <b>THE WISH</b></span><i></i><span>03 <b>THE LETTER</b></span></nav>
+<section id="spark" class="scene" aria-labelledby="spark-title">
+<p class="eyebrow">TONIGHT, THE STARS ARE HERE FOR YOU</p>
+<h1 id="spark-title" tabindex="-1">A little light.<br>A <em>beautiful</em> beginning.</h1>
+<p class="subtitle">Hey, <span data-name></span>. A little surprise is waiting.<br>It starts with a single candle.</p>
+<button id="candle" class="candle-scene" aria-label="Blow out the candle">
+<span class="orbit one"></span><span class="orbit two"></span><span class="tiny-star s1">✧</span><span class="tiny-star s2">✦</span>
+<span class="candle-glow"></span><span class="flame"></span><span class="wick"></span><span class="wax"></span><span class="holder"></span><span class="smoke"></span>
+</button>
+<button id="blow" class="primary">Blow out the candle <span>↗</span></button>
+<p class="hint">or tap the flame & let the magic begin</p>
+</section>
+<section id="wish" class="scene" hidden aria-labelledby="wish-title">
+<p class="eyebrow">A NEW CHAPTER, A LITTLE MORE MAGIC</p>
+<h1 id="wish-title" tabindex="-1">Happy birthday,<br><em data-name></em><span class="period">.</span></h1>
+<p class="subtitle">Close your eyes. Make a wish.<br>This little moment is all yours.</p>
+<div class="cake-scene" role="img" aria-label="A pink birthday cake decorated with cherries and little golden stars">
+<span class="cake-star cs1">✦</span><span class="cake-star cs2">✧</span><span class="cake-star cs3">✦</span>
+<div class="cake"><div class="top-layer"></div><div class="bottom-layer"></div><div class="icing"></div><div class="cherry c1"></div><div class="cherry c2"></div><div class="cherry c3"></div><div class="cake-message">make a wish</div><div class="plate"></div></div>
+</div>
+<button id="make-wish" class="primary">I made a wish <span>✧</span></button><p class="hint">Keep it a secret. Let the universe do its thing.</p>
+</section>
+<section id="envelope-scene" class="scene" hidden aria-labelledby="envelope-title">
+<p class="eyebrow">ONE LAST LITTLE THING</p><h1 id="envelope-title" tabindex="-1">Some words,<br><em>just for you.</em></h1><p class="subtitle">Because the best gifts don’t always come in boxes.</p>
+<button id="envelope" class="envelope" aria-label="Open your birthday letter"><span class="envelope-paper">for you, always.</span><span class="envelope-front"></span><span class="seal">♡</span></button>
+<button id="open-letter" class="primary">Open your letter <span>♡</span></button><p class="hint">A little note, with a lot of heart.</p>
+</section>
+<section id="letter-scene" class="scene letter-scene" hidden aria-labelledby="letter-title">
+<p class="eyebrow">A KEEPSAKE FOR YOUR NEXT CHAPTER</p>
+<article class="letter"><span class="letter-star" aria-hidden="true">✧</span><p class="letter-date">A LITTLE BIRTHDAY LETTER</p><h1 id="letter-title" tabindex="-1">Dear <span data-name></span>,</h1><div id="letter-body"></div><p class="signature">With love,<br><span id="sender"></span> <span aria-hidden="true">♡</span></p><div class="letter-bottom">HERE’S TO EVERYTHING THAT’S STILL TO COME.</div></article>
+<button id="replay" class="text-button">↺ &nbsp; A little magic, again</button>
+</section>
+<p id="status" class="sr-only" aria-live="polite"></p>
+</main>
+<footer><span>A SMALL SURPRISE. A WHOLE LOT OF HEART.</span><span class="footer-star">✧</span><span>FOR YOUR NEXT TRIP AROUND THE SUN</span></footer>
+<noscript><p class="noscript">Please enable JavaScript to open your birthday surprise.</p></noscript>
+</body></html>
